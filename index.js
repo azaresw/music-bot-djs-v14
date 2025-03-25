@@ -53,13 +53,8 @@ client.on('ready', async () => {
     new SlashCommandBuilder().setName('shuffle').setDescription('Shuffle the queue'),
     new SlashCommandBuilder().setName('loop').setDescription('Loop the current song or queue')
       .addStringOption(option => option.setName('mode').setDescription('Track/Queue/Off').setRequired(true)),
-    new SlashCommandBuilder().setName('remove').setDescription('Remove a song from the queue')
-      .addIntegerOption(option => option.setName('index').setDescription('Position in queue').setRequired(true)),
     new SlashCommandBuilder().setName('seek').setDescription('Seek to a specific time in the song')
       .addIntegerOption(option => option.setName('seconds').setDescription('Seconds to seek').setRequired(true)),
-    new SlashCommandBuilder().setName('lyrics').setDescription('Get lyrics for the current song'),
-    new SlashCommandBuilder().setName('join').setDescription('Make the bot join your voice channel'),
-    new SlashCommandBuilder().setName('leave').setDescription('Make the bot leave the voice channel')
   ];
 
   // ⭐ CREDITS: AZARESW | GITHUB: https://github.com/azaresw/Welcome-bot-djs-v14
