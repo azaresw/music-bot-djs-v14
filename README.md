@@ -46,6 +46,7 @@ A powerful and customizable Discord music bot using Discord.js v14. This bot all
 
 ## Contributing  
 Pull requests are welcome! Feel free to submit bug reports and feature suggestions.  
+need help or support https://discord.dozziedevelopment.xyz
 
 ## Need Support  
 Join my server [here](https://dsc.gg/azeydev) for support.
